@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "758045763954",
+    "firebase_url": "https://zywie-2b7c2.firebaseio.com",
+    "project_id": "zywie-2b7c2",
+    "storage_bucket": "zywie-2b7c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758045763954:android:6c25ec1426bae44a",
+        "android_client_info": {
+          "package_name": "com.zywie.android.zywie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758045763954-vq3jieb3vp91ukdnlrj1kc17v8q2jps5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zywie.android.zywie",
+            "certificate_hash": "4bbea71c33fecb1bbaff5c6b00919912d0c69bbe"
+          }
+        },
+        {
+          "client_id": "758045763954-hpji7gf9dj76obptpbqak88nj4lkffkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEL_YJL7nqVY0c4mAffezDtRWfKhE1Akk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758045763954-hpji7gf9dj76obptpbqak88nj4lkffkg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
