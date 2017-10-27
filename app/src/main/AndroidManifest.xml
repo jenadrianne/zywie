@@ -16,9 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".homeSignUp" />
-        <activity android:name=".homeSignIn" />
-        <activity android:name=".landingPage"></activity>
+        <activity android:name=".HomeSignUp" />
+        <activity android:name=".HomeSignIn" />
+        <activity android:name=".LandingPage" />
+        <activity android:name=".WelcomePage"></activity>
     </application>
 
 </manifest>
