@@ -27,11 +27,11 @@
             android:layout_alignParentEnd="true" />
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:layout_weight="0.45">
+            android:layout_weight="0.45"
+            android:orientation="vertical">
 
             <EditText
                 android:id="@+id/firstName"
@@ -39,13 +39,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="58dp"
                 android:layout_marginRight="58dp"
-                android:ems="10"
-                android:inputType="textPersonName"
                 android:background="@drawable/btn_transparent"
+                android:ems="10"
                 android:hint="First Name"
+                android:inputType="textPersonName"
                 android:padding="5dp"
                 android:textColor="@android:color/background_light"
-                android:textColorHint="@android:color/background_light"/>
+                android:textColorHint="@android:color/background_light" />
 
             <EditText
                 android:id="@+id/lastName"
@@ -54,13 +54,13 @@
                 android:layout_marginLeft="58dp"
                 android:layout_marginRight="58dp"
                 android:layout_marginTop="5dp"
-                android:ems="10"
-                android:inputType="textPersonName"
                 android:background="@drawable/btn_transparent"
+                android:ems="10"
                 android:hint="Last Name"
+                android:inputType="textPersonName"
                 android:padding="5dp"
                 android:textColor="@android:color/background_light"
-                android:textColorHint="@android:color/background_light"/>
+                android:textColorHint="@android:color/background_light" />
 
             <EditText
                 android:id="@+id/emailAddress"
@@ -106,15 +106,15 @@
                 android:textColorHint="@android:color/background_light" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnSignUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/btn_green"
-                android:textColor="@android:color/white"
                 android:layout_marginLeft="58dp"
                 android:layout_marginRight="58dp"
                 android:layout_marginTop="25dp"
-                android:text="Sign Up" />
+                android:background="@drawable/btn_green"
+                android:text="Sign Up"
+                android:textColor="@android:color/white" />
         </LinearLayout>
 
     </LinearLayout>
@@ -142,7 +142,7 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnSignIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
