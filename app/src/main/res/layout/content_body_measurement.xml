@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.zywie.android.zywie.bodyMeasurement"
+    tools:showIn="@layout/activity_body_measurement">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="12.45"
+            android:text="@string/body_measurement"
+            android:textAlignment="inherit"
+            android:textColor="@android:color/white"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="290dp">
+
+        <Button
+            android:id="@+id/weightMeasurement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="2.90"
+            android:background="@drawable/btn_primary"
+            android:elevation="7dp"
+            android:shadowColor="@android:color/black"
+            android:text="Weight Measurement"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/heightMeasurement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_primary"
+            android:elevation="7dp"
+            android:shadowColor="@android:color/black"
+            android:text="Height Measurement"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bmiMeasurement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_primary"
+            android:elevation="7dp"
+            android:shadowColor="@android:color/black"
+            android:text="BMI Measurement"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+</RelativeLayout>

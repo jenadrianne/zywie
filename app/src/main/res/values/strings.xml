@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Zywie</string>
+    <string name="title_activity_landing_nav"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_body_measurement">Body Measurements</string>
+    <string name="body_measurement">
+        "A person's health status can be identified through the measurement of the Body Mass Index (BMI). \n\n\n"
+        "Thus, this application makes use of your inputs for weight and height, to compute the BMI. The results"
+        "will be used by the application to filter out health tips that would help maintain or improve your BMI status."
+    </string>
 </resources>

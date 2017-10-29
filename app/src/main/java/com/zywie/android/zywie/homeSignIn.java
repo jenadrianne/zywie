@@ -21,7 +21,7 @@ public class homeSignIn extends AppCompatActivity {
 
         btnSignIn.setOnClickListener( new View.OnClickListener() {
             public void onClick (View view){
-                Intent signIn = new Intent (homeSignIn.this, landingPage.class);
+                Intent signIn = new Intent (homeSignIn.this, landingNav.class);
                 startActivity(signIn);
             }
         });
