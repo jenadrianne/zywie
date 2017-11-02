@@ -7,14 +7,13 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
 
-public class weightMeasurement extends AppCompatActivity {
+public class heightMeasurement extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_weight_measurement);
+        setContentView(R.layout.activity_height_measurement);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -22,10 +21,9 @@ public class weightMeasurement extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent signIn = new Intent ( weightMeasurement.this, addWeightMeasurement.class);
+                Intent signIn = new Intent ( heightMeasurement.this, heightAddMeasurement.class);
                 startActivity(signIn);
             }
         });
     }
-
 }

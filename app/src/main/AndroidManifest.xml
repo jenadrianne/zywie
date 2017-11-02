@@ -28,12 +28,17 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".weightMeasurement"
-            android:label=""
+            android:label=" "
             android:theme="@style/AppTheme" />
         <activity
             android:name=".addWeightMeasurement"
-            android:label=""
-            android:theme="@style/AppTheme"></activity>
+            android:label=" "
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".heightMeasurement"
+            android:label=" "
+            android:theme="@style/AppTheme" />
+        <activity android:name=".heightAddMeasurement"></activity>
     </application>
 
 </manifest>
