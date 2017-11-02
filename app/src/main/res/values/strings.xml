@@ -8,8 +8,14 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_body_measurement">Body Measurements</string>
     <string name="body_measurement">
-        "A person's health status can be identified through the measurement of the Body Mass Index (BMI). \n\n\n"
-        "Thus, this application makes use of your inputs for weight and height, to compute the BMI. The results"
-        "will be used by the application to filter out health tips that would help maintain or improve your BMI status."
+        "A person's health status can be identified through the measurement of the Body Mass Index (BMI). \n\n"
     </string>
+    <string name="title_activity_body_measurements">bodyMeasurements</string>
+    <string name="title_activity_weight_measurement">weightMeasurement</string>
+    <string name="title_activity_add_weight_measurement">addWeightMeasurement</string>
+
+    <string-array name="weight_units">
+        <item>Kilograms (kg)</item>
+        <item>Pounds (lbs)</item>
+    </string-array>
 </resources>

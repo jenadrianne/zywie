@@ -23,8 +23,16 @@
             android:label="@string/title_activity_landing_nav"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".bodyMeasurement"
-            android:label="@string/title_activity_body_measurement"
+            android:name=".bodyMeasurements"
+            android:label=""
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".weightMeasurement"
+            android:label=""
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".addWeightMeasurement"
+            android:label=""
             android:theme="@style/AppTheme"></activity>
     </application>
 

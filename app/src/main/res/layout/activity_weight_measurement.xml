@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zywie.android.zywie.landingNav">
+    tools:context="com.zywie.android.zywie.weightMeasurement">
 
-    <include layout="@layout/content_landing_nav" />
+    <include layout="@layout/content_weight_measurement"
+        android:id="@+id/include" />
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay"
         android:background="@drawable/btn_trans"
-        android:id="@+id/appBarLayout">
+        android:id="@+id/appBarLayout3">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -23,4 +24,5 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
+
 </RelativeLayout>
