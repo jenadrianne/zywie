@@ -39,7 +39,7 @@ public class landingNav extends AppCompatActivity
 
         body.setOnClickListener( new View.OnClickListener() {
             public void onClick (View view){
-                Intent signIn = new Intent (landingNav.this, bodyMeasurement.class);
+                Intent signIn = new Intent (landingNav.this, bodyMeasurements.class);
                 startActivity(signIn);
             }
         });
