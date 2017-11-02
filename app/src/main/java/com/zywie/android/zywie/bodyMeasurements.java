@@ -11,7 +11,7 @@ import android.widget.Button;
 
 public class bodyMeasurements extends AppCompatActivity {
 
-    Button weightBtn;
+    Button weightBtn, heightBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +24,15 @@ public class bodyMeasurements extends AppCompatActivity {
         weightBtn.setOnClickListener( new View.OnClickListener() {
             public void onClick (View view){
                 Intent signIn = new Intent ( bodyMeasurements.this, weightMeasurement.class);
+                startActivity(signIn);
+            }
+        });
+
+        heightBtn = (Button) findViewById(R.id.btn_height);
+
+        heightBtn.setOnClickListener( new View.OnClickListener() {
+            public void onClick (View view){
+                Intent signIn = new Intent ( bodyMeasurements.this, heightMeasurement.class);
                 startActivity(signIn);
             }
         });
